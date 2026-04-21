@@ -137,15 +137,15 @@
 }
 
 #benefit-1 {
-  background-image: url("../img/imagem1.jpg");
+  background-image: url("img/imagem1.jpg");
 }
 
 #benefit-2 {
-  background-image: url("../img/imagem2.jpg");
+  background-image: url("img/imagem2.jpg");
 }
 
 #benefit-3 {
-  background-image: url("../img/imagem3.jpg");
+  background-image: url("img/imagem3.jpg");
 }
 
 /* Event loocation */
@@ -155,7 +155,7 @@
   height: 400px;
   background:
     linear-gradient(rgba(20, 20, 20, 0.8), rgba(0, 0, 0, 0.8)),
-    url("../img/img1.jpg");
+    url("img/img1.jpg");
   background-position: center;
   background-size: cover;
   align-items: center;
@@ -260,7 +260,7 @@
   height: 400px;
   background:
     linear-gradient(rgba(20, 20, 20, 0.8), rgba(0, 0, 0, 0.8)),
-    url("../img/img4.jpg");
+    url("img/img4.jpg");
   background-position: center;
   background-size: cover;
   align-items: center;
