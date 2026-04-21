@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CasaDecor</title>
+    <!-- Links para Css e Fontawesome-->
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="fontawesome/css/all.min.css" />
+
+    <!-- Link da Fonte -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="event-description">
+      <div id="disclaimer">
+        <h2>CasaDecor</h2>
+        <p class="about-event">
+          Um evento para revolucionar a sua criatividade
+        </p>
+        <p>Data do Evento:</p>
+        <p class="event-date">Domingo, 28 de Maio, a partir das 14h</p>
+      </div>
+
+      <div id="subscription-form">
+        <p>Preencha o formulário para receber os detalhes do evento</p>
+        <form>
+          <div class="form-group">
+            <label for="name">Nome</label>
+            <input type="text" id="name" name="name" placeholder="Digite seu nome" />
+          </div>
+
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu E-mail" />
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Telefone</label>
+            <input type="text" id="phone" name="phone" placeholder="Número de Whatsapp+" />
+          </div>
+
+          <div class="form-group">
+            <label for="interest">Principal interesse</label>
+            <select id="interest" name="interest">
+              <option value="" selected disabled>Selecione</option>
+              <option value="apartament">Apartamentos</option>
+              <option value="house">Casas</option>
+              <option value="gardem">Jardins</option>
+              <option value="other">Outros</option>
+            </select>
+          </div>
+          <input type="submit" class="btn" value="Quero me inscrever" />
+        </form>
+      </div>
+    </header>
+    <section id="key-benefits">
+      <h2>O que você vai aprender:</h2>
+      <div class="benefits">
+        <div class="benefit">
+          <div id="benefit-1" class="benefit-img"></div>
+          <p>
+            Alguma coisa muito legal, que vai fazer a diferença na vida do
+            participante.
+          </p>
+        </div>
+        <div class="benefit">
+          <div id="benefit-2" class="benefit-img"></div>
+          <p>
+            Alguma coisa muito legal, que vai fazer a diferença na vida do
+            participante.
+          </p>
+        </div>
+        <div class="benefit">
+          <div id="benefit-3" class="benefit-img"></div>
+          <p>
+            Alguma coisa muito legal, que vai fazer a diferença na vida do
+            participante.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="location">
+      <div id="addres">
+       <i class="fa-solid fa-location-dot fa-flip"></i>
+        <div id="addres-details">
+          <p>Rua Palmares, 2026</p>
+          <p>Bairro Parque Nações</p>
+          <p>Abertura 16H</p>
+        </div>
+      </div>
+      <div id="about-location">
+        <h3>Local de destaque</h3>
+        <p>
+          O evento será realizado em local prestigiado pelos amantes de Design
+          de Interiores, onde teremos exemplo de vários ambientes, tanto interno
+          como externos.
+        </p>
+      </div>
+    </section>
+    <section id="details">
+      <div class="detail" id="detail-1">
+        <img src="img/img3.jpg" alt="Sala decorada em tons claros">
+        <div class="detail-description">
+          <h3>
+            Conheça os ambientes que você vai aprender a decorar
+          </h3>
+        </div>
+      </div>
+      
+           <div class="detail" id="detail-2">
+            <img src="img/img6.jpg" alt="Sala de estar conjunta coma sala de jantar">
+        <div class="detail-description">
+          <h3>Detalhes</h3>
+          <ul><li>Posicionamento</li>
+            <li>Aproveitamento de espaço</li>
+            <li>Combinação de cores</li>
+            <li>Organialção</li>
+            <li>E muito mais</li>
+          </ul>
+        </div>
+      </div>
+
+                 <div class="detail" id="detail-3">
+                  <img src="img/img5.jpg" alt="Sala decorada com tons escuros">
+        <div class="detail-description">
+          <h3>Objetos</h3>
+          <ul><li>Cadeiras</li>
+            <li>Mesas</li>
+            <li>Espelhos</li>
+            <li>Plantas</li>
+            <li>Cortinas</li>
+            <li>E muito mais</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="cta">
+      <h3>Gostou? Então se increva:</h3>
+      <button class="btn">Solicitar Inscrição</button>
+    </section>
+    <footer id="footer">
+      <h3>CasaDecor</h3>
+      <p>A evolução da decoração de interiores</p>
+      <p><span>Entre em contato:</span> contato @CasaDecor.com.br</p>
+      <p><span>Ou pelo telefone:</span> (62)9 8624-8234</p>
+    </footer>
+  </body>
+</html>
